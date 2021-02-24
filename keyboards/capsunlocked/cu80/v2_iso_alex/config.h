@@ -57,12 +57,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Defines for space cadet shift on Nor keyboard */
 #define PERMISSIVE_HOLD
 #define TAPPING_TERM 140
-/* Shift mod for open/close parenthesis */
+/* Shift mod for parentheses */
 #define LSPO_KEY KC_8
 #define RSPC_KEY KC_9
-/* Ctrl mod for open/close bracket parenthesis */
+/* Ctrl mod for bracket parentheses */
 #define LCPO_KEYS KC_LCTL, KC_RALT, KC_8
 #define RCPC_KEYS KC_RCTL, KC_RALT, KC_9
-/* Alt mod for open/close curly parenthesis */
+/* Alt mod for curly parentheses */
 #define LAPO_KEYS KC_LALT, KC_RALT, KC_7
 #define RAPC_KEYS KC_RALT, KC_RALT, KC_0
+
+/* Norwegian keys from https://github.com/qmk/qmk_firmware/blob/master/quantum/keymap_extras/keymap_norwegian.h */
+
