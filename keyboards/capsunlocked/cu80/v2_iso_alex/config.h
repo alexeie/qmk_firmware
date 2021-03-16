@@ -56,7 +56,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Defines for space cadet shift on Nor keyboard */
 #define PERMISSIVE_HOLD
-#define TAPPING_TERM 140
+#define TAPPING_TERM 110
 /* Shift mod for parentheses */
 #define LSPO_KEY KC_8
 #define RSPC_KEY KC_9
@@ -68,4 +68,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RAPC_KEYS KC_RALT, KC_RALT, KC_0
 
 /* Norwegian keys from https://github.com/qmk/qmk_firmware/blob/master/quantum/keymap_extras/keymap_norwegian.h */
-
